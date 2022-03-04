@@ -11,6 +11,7 @@ body {
 
 .header {
     padding: 20px;
+    border: 2px solid powderblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #9771a3;
     color: #ffffff;
@@ -51,7 +52,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 26px;
 }
 
 .hero {
@@ -82,6 +83,9 @@ p {
 
 }
 
+
+
+
 .benefits {
     display: block;
     align-items: flex-end;
@@ -97,9 +101,9 @@ p {
 
 
 
-.about-me, .work, .contact-me {
+.about-me {
 
-    display: flexbox;
+    display: block;
     
     margin-bottom: 20px;
     padding: 50px;
@@ -109,25 +113,99 @@ p {
     color: #ffffff;
 }
 
-.about-me img, .work img, .contact-me img {
+.work {
+
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #696938;
+    color: #ffffff;
+}
+
+.contact-me {
+
+    display: flexbox;
+    align-items: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3a3a35;
+    color: #ffffff;
+    
+}
+
+.about-me img {
     max-height: 270px;
     border: 5px; color: black; 
     padding: 11px;
+    box-shadow: 0 0 0 8px #766adf,
+    0 0 0 4px #cedfa9;
+    border-radius: 17%;
 
-    
+}
+
+.work img {
+    max-height: 270px;
+    border: 5px; color: black; 
+    padding: 11px;
+    box-shadow: 0 0 0 8px #766adf,
+    0 0 0 4px #cedfa9;
+    border-radius: 17%;
+
+}
+.contact-me img {
+        max-height: 270px;
+        border: 5px; color: black; 
+        padding: 11px;
+        box-shadow: 0 0 0 8px #766adf,
+        0 0 0 4px #cedfa9;
+       
     border-radius: 17%;
     
 }
 
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+  }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    display: flexbox;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
 ol {
     display: block;
     list-style-type: circle;
+    float: right;
+
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
-    text-decoration: wavy;
+    text-decoration: magenta;
   }
 
 
