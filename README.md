@@ -9,3 +9,5 @@ I feel that I used most topics covered in class to create the website: from html
 I feel that I learned a lot during class that I was not aware of until it came time to utilize those skills in this project.
 
 Image had to be changed
+![wk2_shot](https://user-images.githubusercontent.com/99770212/156909332-999870aa-9de7-4187-b6f8-1da9ba3910f1.png)
+![wk2_resize](https://user-images.githubusercontent.com/99770212/156909334-19214b19-f845-4cd5-91ea-257ab4e58155.png)
