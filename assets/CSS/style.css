@@ -1,8 +1,8 @@
 
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: block;
+   
     background-color: #55aae2;
 }
 
